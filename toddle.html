@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toodle</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="toddle.css">
+    <script src="toddle.js"></script>
+   
+</head>
+<body>
+    <div class="container py-5">
+        <div class="row py-5">
+            <div class="col">
+                <p class="font-weight-light" style="line-height:0%">MATHHEMATICS</p>
+                <hr>
+            </div>
+            <div class="row">
+                <div class="col-4">
+                    <p class="font-weight-bold" style="line-height:0%">Actions</p>
+                    <p class="font-weight-light"style="line-height:0%">Move,Ident</p>
+                    <p class="font-weight-light"style="line-height:0%">Outdent,Delete</p>
+                </div>
+                <div class="col-8">
+                    <p class="font-weight-bold"style="line-height:0%">Standard</p>
+                    <p class="font-weight-light"style="line-height:0%">The text of the standard</p>
+                </div>
+                <hr>
+            </div>
+            <div class="row service" id="div0" onmouseenter="blue(this)" onmouseleave="normal(this)">
+                <div class="col-2">
+                    <i class="fa fa-arrows"></i>
+                    <i class="fa fa-arrow-left" id="l0"></i>
+                    <i class="fa fa-arrow-right" id="r0"></i>
+                    <i class="fa fa-trash" id="del0"></i>
+                </div>
+                <div class="col-10">
+                    <p class="font-weight-bold i0" style="margin-left: 220px;" id="text0">Numbers</p>
+                </div>
+                <!-- <hr> -->
+            </div>
+            <hr>
+            <div class="row service" id="div1" onmouseenter="blue(this)" onmouseleave="normal(this)">
+                <div class="col-2">
+                    <i class="fa fa-arrows"></i>
+                    <i class="fa fa-arrow-left" id="l1"></i>
+                    <i class="fa fa-arrow-right" id="r1"></i>
+                    <i class="fa fa-trash" id="del1"></i>
+                </div>
+                <div class="col-10">
+                    <p  class="font-weight-bold i1" style="margin-left: 220px;" id="text1">Count to determine the number of objects in a set</p>
+                </div>
+            </div>
+            <hr>
+            <div class="row service"  id="div2" onmouseenter="blue(this)" onmouseleave="normal(this)">
+                <div class="col-2">
+                    <i class="fa fa-arrows"></i>
+                    <i class="fa fa-arrow-left" id="l2"></i>
+                    <i class="fa fa-arrow-right" id="r2"></i>
+                    <i class="fa fa-trash" id="del2"></i>
+                </div>
+                <div class="col-10 ">
+                    <p  class="font-weight-bold i2" style="margin-left: 220px;" id="text2">Measurement</p>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row service" id="div3" onmouseenter="blue(this)" onmouseleave="normal(this)">
+                <div class="col-2">
+                    <i class="fa fa-arrows"></i>
+                    <i class="fa fa-arrow-left" id="l3"></i>
+                    <i class="fa fa-arrow-right" id="r3"></i>
+                    <i class="fa fa-trash" id="del3"></i>
+                </div>
+                <div class="col-10">
+                    <p  class="font-weight-bold i3" style="margin-left: 220px;" id="text3">Use simple fraction names in real-life situation</p>
+                </div>
+                
+            </div>
+            <hr>
+            <div class="row service" id="div4" onmouseenter="blue(this)" onmouseleave="normal(this)">
+                <div class="col-2">
+                    <i class="fa fa-arrows"></i>
+                    <i class="fa fa-arrow-left" id="l4"></i>
+                    <i class="fa fa-arrow-right" id="r4"></i>
+                    <i class="fa fa-trash" id="del4"></i>
+                </div>
+                <div class="col-10">
+                    <p  class="font-weight-bold i4" style="margin-left: 220px;" id="text4">describe observation about events and objects in real-life situation</p>
+                </div> 
+            </div>
+            <hr>
+            <button class="btn btn-primary btn-block btn-active" type="submit"><i class="fa fa-plus-circle"></i> Add a standard</button>
+        </div>
+    </div>
+</body>
